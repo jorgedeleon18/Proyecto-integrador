@@ -2,7 +2,7 @@
 
 ## Creo el esqueleto para no empezar de cero
 
- ## Ubsraki kas deoebdebcuas 
+ ## instalo las dependencias  
 ``` sh 
 npm install
 ```
