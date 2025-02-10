@@ -1,0 +1,82 @@
+/* ----------------------------- */
+/* HEADER */
+/* ----------------------------- */
+/* mobile first */
+.main-header {
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+#menu {
+    display: none;
+
+    /* hacer funcionar el checkxbox---->hacer funcionar el menu hamburguesa */
+
+}
+
+
+/* nav bar */
+
+.nav-bar { 
+    background-color: mediumaquamarine;
+    /* display: none; */
+
+    &__nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+    &__nav-item {
+        text-align: center;
+        background-color: pink;
+    }
+
+    &__nav-link {
+        display: block;
+        background-color: purple;
+        padding: 1rem 2rem;
+        color: white;
+    }
+}
+/* ---------------------------------- */
+/* SEARCH-BAR */
+/* ---------------------------------- */
+
+
+.search-bar {
+    display: flex;
+    background-color: olivedrab;
+    justify-content: space-around;
+
+    &____logo-container {
+        width: 18.75rem;
+        height: 3.75rem;
+    }
+
+    &__form-container {
+        padding: 1rem;
+        background-color: gold;
+    }
+
+    &__form-label {
+        background-color: greenyellow;
+
+    }
+
+
+    &__form-search {
+        background-color: deeppink;
+}
+
+    &__form-submit {
+        background-color: darkslategrey;
+    }
+
+
+    &__carrito-container {
+        flex: 0 0 3rem;  /* short */
+        background-color: goldenrod;
+    }
+}
