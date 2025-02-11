@@ -19,7 +19,7 @@
 
 .nav-bar { 
     background-color: mediumaquamarine;
-    /* display: none; */
+    display: none;
 
     &__nav-list {
         display: flex;
@@ -27,7 +27,14 @@
         justify-content: center;
         list-style-type: none;
 
+        @media screen and (min-width: 992px) {
+            & {
+                flex-direction:row ;
+            }
+
     }
+}
+
     &__nav-item {
         text-align: center;
         background-color: pink;
@@ -38,6 +45,13 @@
         background-color: purple;
         padding: 1rem 2rem;
         color: white;
+    }
+    @media screen and (min-width: 992px) {
+
+        & {
+            display: block;
+        }
+        
     }
 }
 /* ---------------------------------- */
@@ -124,4 +138,11 @@
     &__bottom-bread {
         bottom: .8rem;
     }
+    @media screen and (min-width: 992px) {
+        &{
+            display: none;
+        }
+    }
+        
+    
  }
