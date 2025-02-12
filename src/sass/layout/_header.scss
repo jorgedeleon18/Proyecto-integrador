@@ -5,12 +5,28 @@
 .main-header {
     display:flex;
     flex-direction: column-reverse;
+
+    @media screen and (min-width: 992px){
+        &{
+            flex-direction: column;
+        }
+    }
+        
+    
 }
 
 #menu {
     display: none;
 
     /* hacer funcionar el checkxbox---->hacer funcionar el menu hamburguesa */
+    &:checked + .nav-bar{
+
+    display: block;
+    }
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label{
+
+    background-color: yellow;
+    }
 
 }
 
