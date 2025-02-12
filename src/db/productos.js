@@ -16,25 +16,25 @@ const productos = [
     {
         id: 3,
         nombre: "Camiseta River Plate 2025",
-        foto: "imgs/Camiseta-River-2025.jpg",
+        foto: "imgs/Camiseta-River-2025.webp",
         descripcion: "Titular", 
         precio: 440.40
     },
     {
         id: 4,
         nombre: "Inter Miami ",
-        foto: "imgs/Inter-Miami-verde.jpg",
+        foto: "imgs/Miami-Suplente-2025.webp",
         descripcion: "Alternativa", 
         precio: 550.50
     },
     {
         id: 5,
         nombre: "Camiseta Milan",
-        foto: "imgs/Milan2025.jpg",
+        foto: "imgs/Inter-Miami-Rosa.webp",
         descripcion: "Titular", 
         precio: 660.60
     }
-
+   
 ]
 
 
