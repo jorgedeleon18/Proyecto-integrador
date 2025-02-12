@@ -25,7 +25,7 @@
     }
     &:checked ~ .search-bar .menu-toogle .menu-toogle__label{
 
-    background-color: yellow;
+    background-color:  #7b9e56;
     }
 
 }
@@ -35,8 +35,8 @@
 
 nav {/* corregir */
     background: radial-gradient(circle, #a8d08d, #7b9e56, #4d6d3e);
-    display: block;
-    height: 50px;
+    display: none;
+    /* height: 50px; */
     transition: background 0.5s ease;  
 
     &__nav-list {
@@ -79,7 +79,6 @@ nav {/* corregir */
 
 .search-bar {
     display: flex;
-    background-color: rgb(1, 255, 60);
     justify-content: space-around;
 
     &____logo-container {
@@ -98,32 +97,64 @@ nav {/* corregir */
     }
 
     &__form-label {
-        background-color: rgb(219, 219, 219);
+        display: none;
+        
 
     }
 
 
     &__form-search {
-        background-color: white;
+        background-color: rgb(253, 253, 253);  
+        color: rgb(0, 0, 0);  
+        padding: 12px 20px;  
+        border: none;  
+        border-radius: 25px;  
+        font-size: 1em;  
+        width: 200px;  
+        display: inline-block;  
+        margin-right: 10px;  
 }
 
     &__form-submit {
-        background-color: rgb(219, 219, 219);
+        background-color: rgb(172, 167, 167);
     }
 
 
     &__carrito-container {
         flex: 0 0 3rem;  /* short */
-        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle, #a8d08d, #7b9e56, #4d6d3e);
     }
 }
+button, .button {
+    background-color: #27ae60;  // Verde suave para el botón
+    color: white;  // Texto blanco
+    font-size: 80%;  // Texto de tamaño moderado
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;  // Bordes redondeados
+    text-transform: uppercase;  // Mayúsculas
+    cursor: pointer;  // Cambia el cursor para que el usuario sepa que es clickeable
+    transition: background-color 0.3s ease;  // Transición suave al pasar el mouse
+    display: flex;  // Usamos flexbox para centrar el contenido
+    justify-content: center;  // Centrado horizontal
+    align-items: center;  // Centrado vertical
+    margin-top: 0em;  // Espacio encima del botón
+    &:hover {
+      background-color: #2ecc71;  // Cambio de color más claro al pasar el mouse
+    }
+    
+  }
+
+
 /* -------------------------------- */ 
  /* MENU TOOGLE                     */
  /* ------------------------------- */
 
  .menu-toogle {
     display: block;
-    background-color: red;
     flex: 0 0 3rem;
     position: relative;
     cursor: pointer;
@@ -131,7 +162,7 @@ nav {/* corregir */
 
     &__label {
         display: block;
-        background-color: black;
+        background-color:  #4d6d3e;
         height: 100%;
     }
 
@@ -163,6 +194,6 @@ nav {/* corregir */
             display: none;
         }
     }
-        
+   
     
  }
