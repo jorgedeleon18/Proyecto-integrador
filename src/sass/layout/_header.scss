@@ -33,9 +33,11 @@
 
 /* nav bar */
 
-.nav-bar { 
-    background-color: mediumaquamarine;
-    display: none;
+nav {/* corregir */
+    background: radial-gradient(circle, #a8d08d, #7b9e56, #4d6d3e);
+    display: block;
+    height: 50px;
+    transition: background 0.5s ease;  
 
     &__nav-list {
         display: flex;
@@ -77,7 +79,7 @@
 
 .search-bar {
     display: flex;
-    background-color: olivedrab;
+    background-color: rgb(1, 255, 60);
     justify-content: space-around;
 
     &____logo-container {
@@ -87,30 +89,32 @@
 
     &__form-container {
         padding: 1rem;
-        background-color: gold;
+        background: radial-gradient(circle, #a8d08d, #7b9e56, #4d6d3e);
         display: flex;
+        height: 50px;
         flex-basis: 100%;
         justify-content: center;
+        transition: background 0.5s ease;
     }
 
     &__form-label {
-        background-color: greenyellow;
+        background-color: rgb(219, 219, 219);
 
     }
 
 
     &__form-search {
-        background-color: deeppink;
+        background-color: white;
 }
 
     &__form-submit {
-        background-color: darkslategrey;
+        background-color: rgb(219, 219, 219);
     }
 
 
     &__carrito-container {
         flex: 0 0 3rem;  /* short */
-        background-color: goldenrod;
+        background-color: yellow;
     }
 }
 /* -------------------------------- */ 
