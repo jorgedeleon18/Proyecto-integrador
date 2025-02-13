@@ -33,11 +33,10 @@
 
 /* nav bar */
 
-nav {/* corregir */
+.nav-bar{
     background: radial-gradient(circle, #a8d08d, #7b9e56, #4d6d3e);
-    display: none;
-    /* height: 50px; */
     transition: background 0.5s ease;  
+    display: none;
 
     &__nav-list {
         display: flex;
@@ -47,7 +46,7 @@ nav {/* corregir */
 
         @media screen and (min-width: 992px) {
             & {
-                flex-direction:row ;
+           flex-direction: row;
             }
 
     }
@@ -55,14 +54,13 @@ nav {/* corregir */
 
     &__nav-item {
         text-align: center;
-        background-color: pink;
     }
 
     &__nav-link {
         display: block;
-        background-color: purple;
         padding: 1rem 2rem;
         color: white;
+        text-decoration: none;
     }
     @media screen and (min-width: 992px) {
 

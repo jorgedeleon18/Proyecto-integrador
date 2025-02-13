@@ -1,19 +1,15 @@
 import productos from './db/productos'
 import './sass/main.scss'
 
-console.log(productos)
 
 const contenedorProductos = document.getElementById('container-productos')
-console.log(contenedorProductos)
 
 const start = () => {
-    console.warn('se cargo todo el html')
 
 
     let html = ''
 
     productos.forEach((prod) => {
-        console.log(prod)
         html += `<div class="card">
       <article class="card__article">
       <div class="card__image-container">
