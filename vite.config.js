@@ -1,18 +1,17 @@
 import { resolve } from "path";
-import { defineConfig } from "vite";
 
 export default {
-      //config options
-    css: {
-        devSourcemap: true 
+  //config options
+  css: {
+    devSourcemap: true,
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        contacto: resolve(__dirname, "src/pages/contacto/contacto.html"),
+        Nosotros: resolve(__dirname, "src/pages/Nosotros/nosotros.html"),
+      },
     },
-    build: {
-        rollupOptions: {
-        main: resolve(__dirname, 'index.html'),
-        contacto: resolve(__dirname, 'src/pages/contacto/contacto.html'),
-        Nosotros: resolve(__dirname, 'src/pages/Nosotros/nosotros.html')
-    
-        }
-
-    }
-}
+  },
+};
