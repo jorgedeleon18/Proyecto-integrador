@@ -2,4 +2,4 @@
 
 ### Link Github repositorio: https://github.com/jorgedeleon18/Proyecto-integrador.git
 
-### Link deployado Netlify: 
+### Link deployado Netlify: https://integrador-jorge-de-leon.netlify.app/

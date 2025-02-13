@@ -1,94 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
     />
     <title>Proyecto Integrador - Inicio</title>
   </head>
   <body>
-
     <header class="main-header">
-      <input type="checkbox" id="menu">
+      <input type="checkbox" id="menu" />
 
-        <nav class="nav-bar">
-        
-          <ul class="nav-bar__nav-list">
-           <li class="nav-bar__nav-item">
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
             <a href="index.html" class="nav-bar__nav-link">inicio</a>
           </li>
-           <li class="nav-bar__nav-item">
+          <li class="nav-bar__nav-item">
             <a href="" class="nav-bar__nav-link">alta</a>
           </li>
-            <li class="nav-bar__nav-item">
-             <a href="/src/pages/Nosotros/nosotros.html" class="nav-bar__nav-link">nosotros</a>
-            </li>
-            <li class="nav-bar__nav-item">
-             <a href="/src/pages/contacto/contacto.html" class="nav-bar__nav-link">contacto</a>
-            </li>
+          <li class="nav-bar__nav-item">
+            <a
+              href="/src/pages/Nosotros/nosotros.html"
+              class="nav-bar__nav-link"
+              >nosotros</a
+            >
+          </li>
+          <li class="nav-bar__nav-item">
+            <a
+              href="/src/pages/contacto/contacto.html"
+              class="nav-bar__nav-link"
+              >contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- nav bar -->
 
-          </ul>
-        </nav> <!-- nav bar -->
-
-        <div class="search-bar">
-          <div class="search-bar__logo-container"></div>
-          <img src="/imgs/balon2.webp" alt="Logo" class="payment-logo" />
-          <form action="#" class="search-bar__form-container">
-            <label for="busqueda" class="search-bar__form-label">Buscar</label>
-            <input type="search" id="busqueda" class="search-bar__form-search" >
-            <button type="submit" class="search-bar__form-submit" >Buscar</button>
-          </form>
-        <div class="search-bar__carrito-container"><i class="fa-solid fa-cart-shopping"></i></div>
-          <div class="menu-toogle">
-            <label for="menu" class="menu-toogle__label">
+      <div class="search-bar">
+        <div class="search-bar__logo-container"></div>
+        <img src="/imgs/balon2.webp" alt="Logo" class="payment-logo" />
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <input type="search" id="busqueda" class="search-bar__form-search" />
+          <button type="submit" class="search-bar__form-submit">Buscar</button>
+        </form>
+        <div class="search-bar__carrito-container">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="menu-toogle">
+          <label for="menu" class="menu-toogle__label">
             <span class="menu-toogle__top-bread"></span>
             <span class="menu-toogle__meat"></span>
             <span class="menu-toogle__bottom-bread"></span>
-            </label>
-          </div><!-- menu toogle -->
-        </div> <!-- search-bar -->
-
+          </label>
+        </div>
+        <!-- menu toogle -->
+      </div>
+      <!-- search-bar -->
     </header>
 
-<main>
-  <section class="section-cards">
-    <header class="section-cards__header">
-      <h1 class="section-cards__header__heading">Camisetas LM10</h1>
-      <p class="section-cards__header__p">New Arrivals:</p>
-    </header>
-  </section>
+    <main>
+      <section class="section-cards">
+        <header class="section-cards__header">
+          <h1 class="section-cards__header__heading">Camisetas LM10</h1>
+          <p class="section-cards__header__p">New Arrivals:</p>
+        </header>
+      </section>
 
- 
+      <section class="cards-container" id="container-productos"></section>
+    </main>
 
-  <section class="cards-container" id="container-productos"></section>
+    <footer class="footer">
+      <p>&copy; 2025 Camisetas LM10. Todos los derechos reservados.</p>
+      <p>Diseñado por Jorge De Leon</p>
+      <div class="payment-logos">
+        <img src="/imgs/visa.webp" alt="Visa" class="payment-logo" />
+        <img
+          src="/imgs/mastercard.webp"
+          alt="mastercard"
+          class="payment-logo"
+        />
+        <img
+          src="/imgs/mercado-pago.webp"
+          alt="mercado-pago"
+          class="payment-logo"
+        />
+      </div>
+      <div class="footer-icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </footer>
 
-
-</main>
-
-<footer class="footer">
-  <p>&copy; 2025 Camisetas LM10. Todos los derechos reservados.</p>
-  <p>Diseñado por Jorge De Leon</p>
-  <div class="payment-logos">
-    <img src="/imgs/visa.webp" alt="Visa" class="payment-logo" />
-    <img src="/imgs/mastercard.webp" alt="mastercard" class="payment-logo" />
-    <img src="/imgs/mercado-pago.webp" alt="mercado-pago" class="payment-logo" />
-  </div>
-  <div class="footer-icons">
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-x-twitter"></i>
-  </div>
-</footer>
-
-
-
-
-
-    <script type="module" src="/src/main.js">logo</script>
+    <script type="module" src="/src/main.js">
+      logo
+    </script>
   </body>
 </html>
-
