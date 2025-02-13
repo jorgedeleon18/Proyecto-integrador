@@ -1,12 +1,11 @@
 .footer {
     background: radial-gradient(circle, #a8d08d, #7b9e56, #4d6d3e);
-    color: white;               /* Texto blanco */
-    text-align: center;         /* Centrado de texto */
-    padding: 5px;              /* Espaciado interior */
-    position: relative;         /* Asegura que el footer se quede en su lugar */
+    color: white;               
+    text-align: center;         
+    padding: 5px;              
+    position: relative;         
     bottom: 0;
-    width: 100%;                /* Asegura que el footer ocupe todo el ancho */
-    border-top-left-radius: 20px;  /* Curva en la esquina superior izquierda */
-    border-top-right-radius: 20px; /* Curva en la esquina superior derecha */
+    width: 100%;                
+   
 }
 
