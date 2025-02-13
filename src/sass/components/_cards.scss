@@ -1,3 +1,20 @@
+.section-cards__header__heading {
+    text-align: center;
+    animation: slideInFromLeft 1s ease-out forwards; 
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+}
+
+
 .card {
     min-width: 400px;
     max-width: 500px;
