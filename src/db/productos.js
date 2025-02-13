@@ -22,7 +22,7 @@ const productos = [
     },
     {
         id: 4,
-        nombre: "Camiseta Inter Miami",
+        nombre: "Camiseta Inter Miami 2025",
         foto: "imgs/Inter-Miami-Rosa.webp",
         descripcion: "Titular", 
         precio: 660.60
@@ -30,7 +30,7 @@ const productos = [
     },
     {
         id: 5,
-        nombre: "Camiseta Inter Miami Suplente ",
+        nombre: "Camiseta Inter Miami Suplente 2025 ",
         foto: "imgs/Miami-Suplente-2025.webp",
         descripcion: "Suplente", 
         precio: 550.50
@@ -38,9 +38,9 @@ const productos = [
     },
     {
         id: 6,
-        nombre: "Camiseta Inter Miami Suplente ",
+        nombre: "Camiseta Inter Miami Suplente 2025 ",
         foto: "imgs/Camiseta-Miami-Verde.webp",
-        descripcion: "Suplente", 
+        descripcion: "Alternativa", 
         precio: 550.50
        
     }
