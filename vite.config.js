@@ -8,7 +8,8 @@ export default {
     },
     build: {
         rollupOptions: {
-        input: resolve(__dirname, 'index.html')
+        input: resolve(__dirname, 'index.html'),
+        contacto: resolve(__dirname, 'src/pages/contacto/contacto.html')
     
         }
 
