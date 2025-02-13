@@ -35,6 +35,14 @@ const productos = [
         descripcion: "Suplente", 
         precio: 550.50
        
+    },
+    {
+        id: 6,
+        nombre: "Camiseta Inter Miami Suplente ",
+        foto: "imgs/Miami-Suplente-2025.webp",
+        descripcion: "Suplente", 
+        precio: 550.50
+       
     }
    
 ]
