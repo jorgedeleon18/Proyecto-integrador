@@ -10,7 +10,7 @@ export default {
         rollupOptions: {
         input: resolve(__dirname, 'index.html'),
         contacto: resolve(__dirname, 'src/pages/contacto/contacto.html'),
-        contacto: resolve(__dirname, 'src/pages/nosotros/nosotros.html')
+        nosotros: resolve(__dirname, 'src/pages/Nosotros/nosotros.html')
     
         }
 
